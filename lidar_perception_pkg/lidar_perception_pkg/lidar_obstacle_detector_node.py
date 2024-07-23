@@ -45,7 +45,7 @@ class ObjectDetection(Node):
         end_angle = 270  # 원하는 각도 범위의 끝 값
         
         range_min = 0.1  # 원하는 거리 범위의 최소값 [m]
-        range_max = 0.9  # 원하는 거리 범위의 최대값 [m]
+        range_max = 1.0  # 원하는 거리 범위의 최대값 [m]
 
 
         ranges = msg.ranges
